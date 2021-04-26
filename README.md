@@ -118,3 +118,9 @@ These data suggest that circulating insulin has direct and indirect effects on t
 {"sent":"We show that this feature stems from mutations in genes disturbing the capability of the cells to differentiate into a quiescent state, enabling them to divide under restrictive conditions.","entity":[{"pos":[26,31],"cui":"C1184743","name":["stem"],"type":["bpoc"]},{"pos":[26,31],"cui":"C1186763","name":["stems"],"type":["bpoc"]},{"pos":[50,55],"cui":"C0017337","name":["genes"],"type":["gngm"]},{"pos":[178,188],"cui":"C0012634","name":["condition"],"type":["dsyn"]}]}
 {"sent":"African populations of Galba spp. are not yet studied using molecular assessments and is imperative to do so and reconstruct the centre of origin of Galba and to understand when and by what means it may have colonized the highlands of Africa and to what extent humans might have been involved in that process.","entity":[{"pos":[29,32],"cui":"C1424276","name":["spp"],"type":["gngm"]},{"pos":[301,308],"cui":"C1184743","name":["process"],"type":["bpoc"]}]}
 ```
+
+最后得到的结果为
+```json
+{"obj":{"pos":[101,104],"cui":"C2239176","name":["hcc"]},"subj":{"pos":[37,40],"cui":"C0079419","name":["p53"]},"sent":"The relationships between MKI67 with p53 and variants of candidate genes in the clinical outcomes of HCC patients were analyzed .","relation":"gene_associated_with_disease"}
+{"obj":{"pos":[105,119],"cui":"C0040300","name":["normal","tissue"]},"subj":{"pos":[43,52],"cui":"C0009450","name":["infection"]},"sent":"Immunostaining  of HDAC6 expression and HP infection were performed in the following cohort including 21 normal tissues  ( Normal )  .","relation":"NA"}
+```
