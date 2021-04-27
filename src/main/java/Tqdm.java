@@ -11,7 +11,7 @@ public class Tqdm<T>  implements  Iterable<T>{
     int progress = -1; // 当前进度
     int nCols; // 控制台进度条宽度
     String desc; // 进度条描述
-    long printIntervalInMilli = 100; // 每隔多长时间打印一次
+    long printIntervalInMilli = 1000; // 每隔多长时间打印一次
     Iterator<T> data; // 可迭代对象
     //State
     long lastPrintTime = 0;
